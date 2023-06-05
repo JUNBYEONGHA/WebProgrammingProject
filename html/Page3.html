@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>소개 페이지</title>
+</head>
+<body>
+  <header>
+  </header>
+  <nav class="menu-bar">
+    <div class="index">
+      <!-- 프로필 이미지 -->
+      <div class="img">
+        <img id="porfile-img" src="../img/junba.png" title="김준바">
+      </div>
+      <br>
+      <!-- 목차 내용 -->
+      <details >
+        <summary onClick="location.href='page1.html'">본인 소개</summary>
+          <ol>
+            <li>첫번쨰</li>
+            <li>두번쨰</li>
+            <li>세번쨰</li>
+          </ol>
+      </details>
+      <details>
+        <summary onClick="location.href='page2.html'">관심 기술</summary>
+          <ol>
+            <li>첫번쨰</li>
+            <li>두번쨰</li>
+            <li>세번쨰</li>
+          </ol>
+      </details>
+      <details open>
+        <summary onClick="location.href='page3.html'">관심 기업</summary>
+          <ol>
+            <li class="click">첫번쨰</li>
+            <li class="click">두번쨰</li>
+            <li class="click">세번쨰</li>
+          </ol>
+      </details>
+    </div>
+  </nav>
+  <section class="about">
+    <!-- 이름 -->
+    <header class="name">
+      <p><span>전</span>&nbsp;<span style="color:#FF9494">병하</span></p>
+    </header>
+    <br><br>
+    <!-- 소개글 -->
+    <article class="main-introduction">
+      <p>안녕하세요! 18학번 전병하입니다.<br>
+        게임 개발자가 되기 위해서 늘 열심히 하고 긍정적으로 살고 있습니다.</p>
+      <br>
+      <p>앞으로 잘 부탁드리며, 저에 대해 더 알고싶으시다면 스크롤을 내려주세요!🙋‍♀️</p>
+    </article>
+    <br><br>
+    <!-- SNS 픽토그램 -->
+    <footer class="sns-pictogram">
+      <a href='https://instagram.com/dumibell?igshid=YmMyMTA2M2Y='><i class="fa-brands fa-instagram fa-4x"></i></a>
+      <a href="https://blog.naver.com/choyejee"><i class="fa-solid fa-blog fa-4x"></i></a>
+      <a href="https://github.com/Dumibell"><i class="fa-brands fa-github fa-4x"></i></a>
+    </footer>
+  </section>
+  <section class="experience">
+    <!-- 상단 텍스트 & 사진 -->
+    <div class="contents1">
+      <p class="title"><span>Hilton</span>&nbsp<span style="color: #2B3856;">Garden Inn</span>&nbsp<span
+          class="year">~2021.12</span></p>
+      <img src="images/working.jpg">
+      <img src="images/IMG_6066.jpg">
+      <img src="images/IMG_9982.jpg">
+      <img src="images/IMG_3666.jpg">
+    </div>
+    <!-- 하단 텍스트 & 사진 -->
+    <div class="contents2">
+      <p class="title"><span>Alpensia</span>&nbsp<span style="color: #2B3856;">Pyeongchang</span>&nbsp<span
+          class="year">~2020.11</p>
+      <img style="width: 150px;" class="photos" src="images/alpen.JPG">
+      <img src="images/IMG_9565.jpg">
+      <img src="images/sheep.jpeg">
+      <img src="images/IMG_9869.jpg">
+    </div>
+  </section>
+  <section class="education">
+    <!-- 전공 & 부전공 -->
+    <p class="major"><span>Tourism</span>&nbsp<span style="color: #2B3856;">Management</span>&nbsp<span
+        class="comments">major</span></p>
+
+    <p class="major"><span>Food</span>&nbsp<span style="color: #2B3856;">Nuturition</span>&nbsp<span
+        class="comments">minor</span></p>
+  </section>
+  <section class="interests">
+    <header>
+      <!-- 제목 -->
+      <p style="margin: 10px;" class="whatilove-text"><span>WHAT</span>&nbsp<span style="color: #2B3856;">I LOVE</span>
+      <p>
+    </header>
+    <article>
+      <!-- 이미지 -->
+      <div class="whatilove-img">
+        <img src="images/dumi1.jpg">
+        <img src="images/knitting.JPG">
+        <img src="images/dumibell.JPG">
+        <img src="images/bike.jpeg">
+        <img src="images/bell1.jpg">
+        <img src="images/dumi2.jpg">
+        <img src="images/piano.jpeg">
+        <img src="images/passport.jpg">
+        <img src="images/thread.JPG">
+        <img src="images/bell2.jpg">
+      </div>
+      <!-- 코멘트 -->
+      <p class="comment">Things that make me happy✨<br>
+        :knitting, bicycle riding on sunny days, playing the piano, traveling with no plans, and my only Dumi&Bell</p>
+    </article>
+  </section>
+</body>
+<script src = "../js/main.js">
+</script>
+</html>

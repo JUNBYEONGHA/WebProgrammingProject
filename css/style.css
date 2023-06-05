@@ -1,0 +1,229 @@
+  /* 바디 스타일 */
+  body {
+      margin: 0;
+      background-color: #FFF5E4;
+  }
+
+  /* 섹션을 스타일 */
+  section {
+      margin-left: 500px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  details img {
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-bottom: 30px;
+  }
+
+  details summary {
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+
+  /* 기본 텍스트 */
+  article p {
+      font-family: "maple_L", sans-serif;
+      font-size: 30px;
+      margin-left: 30px;
+      margin-right: 30px;
+  }
+
+  article summary {
+      font-family: "maple_B", sans-serif;
+      font-size: 40px;
+  }
+  article h3 {
+    font-family: "maple_B", sans-serif;
+    font-size: 40px;
+  }
+    
+
+  article {
+      background-color: #FFE3E1;
+      width: 800px;
+      border-radius: 20px;
+      text-align: center;
+      margin-top: 30px; 
+      display: block;
+  }
+  .article-table{
+      width: 1200px;
+      justify-content: center;
+      align-items: center;
+      display: block;
+  }
+  @font-face {
+      font-family: "maple_L";
+      src: url(../font/Maplestory\ Light.ttf);
+  }
+
+  @font-face {
+      font-family: "maple_B";
+      src: url(../font/Maplestory\ Bold.ttf);
+  }
+
+  /* 프로필 이미지 */
+  .img {
+      justify-content: center;
+      border: 5px solid #FFF5E4;
+      border-radius: 80px;
+  }
+
+  #porfile-img {
+      width: 150px;
+      height: 150px;
+      transform: scale(1);
+      /* 이미지 사이즈 고정 */
+      border-radius: 70%
+  }
+
+  /* 사이드 바 Nav 스타일 */
+  .menu-bar {
+      position: fixed;
+      border: 0;
+      background-color: #FF9494;
+      display: block;
+      width: 350px;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .index {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      font-family: "maple_B", sans-serif;
+      background-color: #FFE3E1;
+      border: #FFF5E4 solid 5PX;
+      border-radius: 20px;
+  }
+
+  /* 큰 목차 */
+  .index summary {
+      color: black;
+      opacity: 1;
+      font-size: 30px;
+      text-decoration: none;
+      cursor: pointer;
+  }
+
+  /* 목차 각 큰 항목 반응형 커서 */
+  .index summary:hover {
+
+      opacity: 1;
+      color: white;
+      text-shadow: 0.7px 0.7px 0.7px black;
+  }
+
+  /* 큰 목차 */
+  .index li {
+      color: black;
+      opacity: 1;
+      font-size: 20px;
+      text-decoration: none;
+      cursor: pointer;
+  }
+
+  /* 목차 각 큰 항목 반응형 커서 */
+  .index li:hover {
+
+      opacity: 1;
+      color: white;
+      text-shadow: 0.7px 0.7px 0.7px black;
+  }
+
+  .name {
+      font-size: 65px;
+      font-weight: 900;
+      font-family: "maple_L", sans-serif;
+  }
+
+  .contacts {
+      font-size: 20px;
+      opacity: 0.8;
+      font-family: 'maple_L', monospace;
+  }
+
+  .sns-pictogram img {
+      margin-right: 40px;
+      color: black;
+      opacity: 0.4;
+      font-size: 4rem;
+      width: 60PX;
+      height: 60PX;
+  }
+
+  img {
+      transition: all 0.3s ease-in-out;
+  }
+
+  /* 커서 올릴 시 이미지 크게(모든 이미지 파일에 적용) */
+  img:hover {
+      transform: scale(1.7);
+      -webkit-transform: scale(1.7);
+      /* 크롬 */
+      -moz-transform: scale(1.7);
+      /* 파이어폭스 */
+      -o-transform: scale(1.7);
+      /* 오페라 */
+      z-index: 1;
+      align-items: center;
+  }
+
+  /* for layout */
+  .contents1 {
+      width: 700px;
+  }
+
+  .contents2 {
+      width: 700px;
+      margin-left: 120px;
+      margin-top: 30px;
+  }
+
+  /* 하단 코멘트 */
+  .interests .comment {
+      font-size: 16px;
+      font-style: italic;
+  }
+
+  /* 테이블 */
+  .styled-table {
+      border-collapse: collapse;
+      text-align: center;
+      margin: 25px 30px;
+      font-size: 30px;
+      font-family: "maple_L";
+      border-radius: 20px;
+      min-width: 400px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .styled-table thead tr {
+      background-color: #FF9494;
+      color: #ffffff;
+      text-align: left;
+  }
+
+  .styled-table th,
+  .styled-table td {
+      padding: 12px 15px;
+  }
+
+  .styled-table tbody tr {
+      border-bottom: 1px solid #dddddd;
+  }
+
+  .styled-table tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3;
+  }
+
+  .styled-table tbody tr:last-of-type {
+      border-bottom: 2px solid #FF9494;
+  }
