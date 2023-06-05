@@ -40,6 +40,10 @@
     font-family: "maple_B", sans-serif;
     font-size: 40px;
   }
+  article h3 {
+    font-family: "maple_L", sans-serif;
+    font-size: 30px;
+  }
     
 
   article {
@@ -56,6 +60,12 @@
       align-items: center;
       display: block;
   }
+  .article-canvas{
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
   @font-face {
       font-family: "maple_L";
       src: url(../font/Maplestory\ Light.ttf);
@@ -67,7 +77,7 @@
   }
 
   /* 프로필 이미지 */
-  .img {
+  .profileimg {
       justify-content: center;
       border: 5px solid #FFF5E4;
       border-radius: 80px;
@@ -86,8 +96,7 @@
       position: fixed;
       border: 0;
       background-color: #FF9494;
-      display: block;
-      width: 350px;
+      width: 300px;
       height: 100vh;
       display: flex;
       align-items: center;
@@ -174,17 +183,6 @@
       /* 오페라 */
       z-index: 1;
       align-items: center;
-  }
-
-  /* for layout */
-  .contents1 {
-      width: 700px;
-  }
-
-  .contents2 {
-      width: 700px;
-      margin-left: 120px;
-      margin-top: 30px;
   }
 
   /* 하단 코멘트 */
