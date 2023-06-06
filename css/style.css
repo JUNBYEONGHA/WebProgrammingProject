@@ -6,7 +6,7 @@
 
   /* 섹션을 스타일 */
   section {
-      margin-left: 500px;
+      margin-left: 400px;
       height: 100vh;
       display: flex;
       flex-direction: column;
