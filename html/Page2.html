@@ -17,7 +17,6 @@
       <div class="profileimg">
         <img id="porfile-img" src="../img/junba.png" title="김준바">
       </div>
-      <br>
       <!-- 목차 내용 -->
       <details>
         <summary onClick="location.href='page1.html'">본인 소개</summary>
@@ -103,17 +102,17 @@
         <tr>
           <td>링크</td>
           <td>
-            <a href="https://unity.com/kr/products/machine-learning-agents">
+            <a href="https://unity.com/kr/products/machine-learning-agents" target="_blank">
               <img src="../img/mlagent.png" alt="mlagent 링크">
             </a>
           </td>
           <td>
-            <a href="https://unity.com/kr/visual-effect-graph">
+            <a href="https://unity.com/kr/visual-effect-graph" target="_blank">
               <img src="../img/VFX.png" alt="VFX 링크">
             </a>
           </td>
           <td>
-            <a href="https://unity.com/solutions/gaming-services">
+            <a href="https://unity.com/solutions/gaming-services" target="_blank">
               <img src="../img/UGS.png" alt="UGS 링크">
             </a>
           </td>
@@ -126,60 +125,58 @@
 
 <section>
   <article class = "article-table">
-      <h3>유니티 관심 기술</h3>
+      <h3>관심 기업</h3>
       <table class = "styled-table">
-        <th>시네마틱</th>
-        <th>제조</th>
-        <th></th>
+        <th>기업</th>
+        <th>기업 설명</th>
+        <th>대표 게임</th>
+        <th>이미지</th>
         <tr>
-          <td>프로젝트 설명</td>
+          <td>넥슨</td>
           <td>
-            행성 표면에서 뛰어다니며 날아오는 위성과
-             중간중간 생성되는 폭탄 장애물을 피하며 오래 생존하여 
-             점수를 쌓는 간단한 모바일 게임
+            넥슨은 대한민국에서 가장 큰 비디오 게임 회사 중 하나이다.
           </td>
           <td>
-            테트리스를 이용한 젠가 게임으로 젠가 위
-            에 금색 블록을 떨어트리면 그 사용자가 지는 방식
+            FIFA 온라인 4<br>
+            메이플스토리<br>
+            카트라이더
+          </td>
+          <td>
+            <canvas id = "myCanvas3" width="200" height="100"></canvas>
           </td>
         </tr>
         <tr>
-          <td>어려웠던 점</td>
+          <td>컴투스</td>
           <td>
-            구글 플레이 스토어에 테스트 버전을 올려 
-            테스트를 진행하기로 했고 앱을 올리는 과정에서
-            문제점이 발생했습니다.
+            컴투스는 1998년에 설립돼 1999년에 대한민국
+             최초로 모바일 게임 서비스를 시작한 한국의 
+             모바일 게임 기업이다.
           </td>
           <td>
-            젠가를 빼는 조작감에 있어 사용자들이 조금 불편한
-            부분이 있다는 문제가 발생했습니다.
-          </td>
-        </tr>
-        <tr>
-          <td>해결 방안</td>
-          <td>
-            유니티에서 에디터 버전을 깔면서 제공되는 SDK, JDK, NDK가
-             문제였다는 사실을 알게 되었고 호환이 되는 
-            최신 버전을 직접 다운로드해 넣어줌으로써 문제를 해결했습니다.
+            서머너즈 워<br>
+            미니게임 천국
           </td>
           <td>
-            팀원들의 테스트를 통해 최적에 움직임을 찾고 적용해 문제점을 
-            해결했습니다.
+            <canvas id = "myCanvas4" width="200" height="100"></canvas>
           </td>
         </tr>
         <tr>
-          <td>링크</td>
+          <td>네오위즈</td>
           <td>
-            <a href="https://junbastick.tistory.com/90">
-              <img src="../img/돌돌이.png" alt="돌돌이 링크">
-            </a>
+            2007년 모회사인 네오위즈홀딩스로부터 
+            분할된 대한민국의 게임 제작사. 
+            게임 포털 사이트인 피망을 운영하고 있습니다.
           </td>
           <td>
-            <a href="https://junbastick.tistory.com/58">
-              <img src="../img/큐브젠가.png" alt="큐브젠가 링크">
-            </a>
+            DJMAX<br>
+            스컬 더 히어로 슬레이어<br>
+            Lies of P
+          </td>
+          <td>
+            <canvas id = "myCanvas5" width="200" height="100"></canvas>
           </td>
         </tr>
+        
       </table>
       <br>
   </article>
@@ -193,6 +190,10 @@
 <script>
   canvasimgmaker("myCanvas1","../img/게임 개발.png");
   canvasimgmaker("myCanvas2","../img/unitydevelop.jpg");
-
+  canvasimgmaker("myCanvas3","../img/Nexon.png" );
+  canvasimgmaker("myCanvas4","../img/com2s.png" );
+  canvasimgmaker("myCanvas5","../img/NEOWIZGAME.png" );
+</script>
+<script src="../js/visit.js">
 </script>
 </html>
